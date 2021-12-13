@@ -1,0 +1,48 @@
+{
+  "languageserver": {
+    //"ccls": {
+      //"command": "ccls",
+      //"filetypes": ["c", "cpp", "h", "hpp"],
+      //"rootPatterns": [
+        //"conanfile.txt",
+        //"conanfile.py",
+        //"compile_commands.json",
+        //".ccls",
+        //".vim/",
+        //".git/",
+        //".hg/"
+      //],
+      //"initializationOptions": {
+        //"cache": {
+          //"directory": "/tmp/ccls"
+        //}
+      //}
+    //},
+    "elixirLS": {
+      "command": "elixir-ls",
+      "filetypes": ["elixir", "eelixir"]
+    },
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+      "filetypes": ["haskell", "lhaskell"]
+    },
+    "purescript": {
+      "command": "purescript-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["purescript"],
+      "trace.server": "off",
+      "rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"],
+      "settings": {
+        "purescript": {
+          "addSpagoSources": true,
+          "addNpmPath": true
+        }
+      }
+    }
+  },
+  "codeLens.enable": true, 
+  "workspace.workspaceFolderCheckCwd": false,
+  "tsserver.tsdk": ".yarn/sdks/typescript/lib"
+}

@@ -1,0 +1,5 @@
+if &rtp !~ 'haskell-vim'
+  finish
+endif
+
+let g:haskell_indent_in = 0
