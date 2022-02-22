@@ -87,6 +87,7 @@ map <silent> <Leader>qq :wq<CR>
 map <Leader>[ <C-T>
 map <Leader>] <C-]>
 
+map <Leader>ss :echo synIDattr(synID(line('.'), col('.'), 1), 'name')<CR>
 map <Leader>sn ]s
 map <Leader>sp [s
 map <Leader>sa zg
