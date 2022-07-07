@@ -15,7 +15,6 @@ set wildmenu
 set wildignore=*.o,*~,*.pyc,*/.git/*,*/.svn/*
 set ruler
 set cmdheight=2
-set hid
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 set ignorecase
