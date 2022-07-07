@@ -1,0 +1,45 @@
+[submodule "pack/colors/start/vim-one"]
+	path = pack/colors/start/vim-one
+	url = git@github.com:rakr/vim-one
+[submodule "pack/plugin/opt/coc.nvim"]
+	path = pack/plugin/opt/coc.nvim
+	url = git@github.com:neoclide/coc.nvim
+[submodule "pack/plugin/start/argtextobj.vim"]
+	path = pack/plugin/start/argtextobj.vim
+	url = git@github.com:vim-scripts/argtextobj.vim
+[submodule "pack/plugin/start/auto-pairs"]
+	path = pack/plugin/start/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs
+[submodule "pack/plugin/start/ctrlp.vim"]
+	path = pack/plugin/start/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim
+[submodule "pack/plugin/start/emmet-vim"]
+	path = pack/plugin/start/emmet-vim
+	url = git@github.com:mattn/emmet-vim
+[submodule "pack/plugin/start/nerdtree"]
+	path = pack/plugin/start/nerdtree
+	url = git@github.com:preservim/nerdtree
+[submodule "pack/plugin/start/vim-commentary"]
+	path = pack/plugin/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary
+[submodule "pack/plugin/start/vim-fugitive"]
+	path = pack/plugin/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive
+[submodule "pack/plugin/start/vim-surround"]
+	path = pack/plugin/start/vim-surround
+	url = git@github.com:tpope/vim-surround
+[submodule "pack/plugin/start/vim-easymotion"]
+	path = pack/plugin/start/vim-easymotion
+	url = git@github.com:easymotion/vim-easymotion
+[submodule "pack/plugin/start/vim-indent-object"]
+	path = pack/plugin/start/vim-indent-object
+	url = git@github.com:michaeljsmith/vim-indent-object
+[submodule "pack/plugin/start/vim-polyglot"]
+	path = pack/plugin/start/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot
+[submodule "pack/plugin/start/vim-rainbow"]
+	path = pack/plugin/start/vim-rainbow
+	url = git@github.com:frazrepo/vim-rainbow
+[submodule "pack/plugin/start/vim-rooter"]
+	path = pack/plugin/start/vim-rooter
+	url = git@github.com:airblade/vim-rooter

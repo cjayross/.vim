@@ -1,4 +1,4 @@
-if !exists(':CtrlP')
+if &rtp !~ 'ctrlp.vim'
   finish
 endif
 

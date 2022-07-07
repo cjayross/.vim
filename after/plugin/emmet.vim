@@ -1,4 +1,4 @@
-if !exists(':Emmet')
+if &rtp !~ 'emmet.vim'
   finish
 endif
 

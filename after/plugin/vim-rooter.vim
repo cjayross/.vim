@@ -1,4 +1,4 @@
-if !exists(':Rooter')
+if &rtp !~ 'vim-rooter'
   finish
 endif
 

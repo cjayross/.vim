@@ -1,1 +1,1 @@
-setlocal shiftwidth=2
+setlocal sw=2

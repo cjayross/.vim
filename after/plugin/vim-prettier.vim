@@ -1,4 +1,4 @@
-if !exists(':Prettier')
+if &rtp !~ 'vim-prettier'
   finish
 endif
 

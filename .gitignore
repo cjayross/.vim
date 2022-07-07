@@ -1,5 +1,3 @@
-pack/*
-!pack/colors
 sessions/
 spell/
 .netrwhist

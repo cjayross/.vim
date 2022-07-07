@@ -1,4 +1,4 @@
-if !exists(':NERDTree')
+if &rtp !~ 'nerdtree'
   finish
 endif
 

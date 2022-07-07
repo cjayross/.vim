@@ -104,7 +104,3 @@ vnoremap n :<C-u>call userspace#visual_selection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap N :<C-u>call userspace#visual_selection('', '')<CR>?<C-R>=@/<CR><CR>
 
 au BufReadPost * silent! call userspace#goto_last_edit_position()
-
-au ColorScheme * call one#highlight('Normal', '', '262729', '')
-au ColorScheme * call one#highlight('SignColumn', '', '262729', '')
-colorscheme one

@@ -16,6 +16,10 @@ endfunction
 function! s:coc_start()
   packadd coc.nvim
 
+  if &rtp !~ 'coc.nvim'
+    return
+  endif
+
   command! -nargs=0 Format :call CocAction('format')
   command! -nargs=? Fold :call CocAction('fold', <F-args>)
   command! -nargs=0 SortImports :call CocAction('runCommand', 'editor.action.organizeImport')
