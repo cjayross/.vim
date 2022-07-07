@@ -19,5 +19,6 @@
     }
   },
   "codeLens.enable": true,
-  "workspace.workspaceFolderCheckCwd": false
+  "workspace.workspaceFolderCheckCwd": false,
+  "list.source.mru.ignoreGitIgnore": true
 }

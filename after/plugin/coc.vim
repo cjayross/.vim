@@ -69,14 +69,14 @@ function! s:coc_start()
   nnoremap <silent> <Leader>cd :<C-u>CocList diagnostics<CR>
   nnoremap <silent><nowait> <Leader>cdo :<C-u>CocCommand workspace.showOutput<CR>
   nnoremap <silent><nowait> <Leader>ce :<C-u>CocConfig<CR>
-  nnoremap <silent><nowait> <Leader>cc :<C-u>CocList lists<CR>
+  nnoremap <silent><nowait> <Leader>cl :<C-u>CocList lists<CR>
   nnoremap <silent><nowait> <Leader>cx :<C-u>CocList extensions<CR>
   nnoremap <silent><nowait> <Leader>cm :<C-u>CocList commands<CR>
   nnoremap <silent><nowait> <Leader>co :<C-u>CocList outline<CR>
   nnoremap <silent><nowait> <Leader>cs :<C-u>CocList --interactive --number-select symbols<CR>
   nnoremap <silent><nowait> <Leader>cf :<C-u>CocList files<CR>
   nnoremap <silent><nowait> <Leader>cw :<C-u>CocList words<CR>
-  nnoremap <silent><nowait> <Leader>cg :<C-u>CocList grep<CR>
+  nnoremap <silent><nowait> <Leader>cc :<C-u>CocList grep<CR>
   nnoremap <silent><nowait> <Leader>cj :<C-u>CocNext<CR>
   nnoremap <silent><nowait> <Leader>ck :<C-u>CocPrev<CR>
   nnoremap <silent><nowait> <Leader>cp :<C-u>CocListResume<CR>
