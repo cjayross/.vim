@@ -18,7 +18,9 @@
       "filetypes": ["haskell", "lhaskell"]
     }
   },
-  "codeLens.enable": true,
   "workspace.workspaceFolderCheckCwd": false,
-  "list.source.mru.ignoreGitIgnore": true
+  "list.source.mru.ignoreGitIgnore": true,
+  "coc.preferences.enableMessageDialog": false,
+  "notification.disabledProgressSources": ["*"],
+  "texlab.build.onSave": true
 }
