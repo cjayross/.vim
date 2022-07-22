@@ -43,3 +43,6 @@
 [submodule "pack/plugin/start/vim-rooter"]
 	path = pack/plugin/start/vim-rooter
 	url = git@github.com:airblade/vim-rooter
+[submodule "pack/plugin/start/vim-wayland-clipboard"]
+	path = pack/plugin/start/vim-wayland-clipboard
+	url = git@github.com:jasonccox/vim-wayland-clipboard
