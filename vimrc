@@ -47,7 +47,6 @@ set modeline
 set modelines=2
 set tagrelative
 set tags=.tags,tags
-set clipboard=unnamedplus
 
 nnoremap <Space> <Nop>
 let mapleader = "\<Space>"

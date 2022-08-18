@@ -57,10 +57,10 @@ function! s:coc_start()
   xmap <Leader>rf <Plug>(coc-format-selected)
   nmap <Leader>rf <Plug>(coc-format-selected)
 
-  nmap <Leader>a <Plug>(coc-codeaction-selected)
-  xmap <Leader>a <Plug>(coc-codeaction-selected)
-  nmap <nowait> <Leader>ac <Plug>(coc-codeaction)
-  nmap <nowait> <Leader>af <Plug>(coc-fix-current)
+  nmap <silent> <Leader>a <Plug>(coc-codeaction-selected)
+  xmap <silent> <Leader>a <Plug>(coc-codeaction-selected)
+  nmap <silent><nowait> <Leader>ac <Plug>(coc-codeaction)
+  nmap <silent><nowait> <Leader>af <Plug>(coc-fix-current)
 
   nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
   nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
