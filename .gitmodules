@@ -46,3 +46,6 @@
 [submodule "pack/plugin/start/vim-wayland-clipboard"]
 	path = pack/plugin/start/vim-wayland-clipboard
 	url = git@github.com:jasonccox/vim-wayland-clipboard
+[submodule "pack/plugin/start/vim-svelte-plugin"]
+	path = pack/plugin/start/vim-svelte-plugin
+	url = git@github.com:leafOfTree/vim-svelte-plugin
