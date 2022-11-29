@@ -1,4 +1,4 @@
-if &rtp !~ 'vim-easymotion'
+if !userspace#is_loaded('/plugin/EasyMotion.vim')
   finish
 endif
 

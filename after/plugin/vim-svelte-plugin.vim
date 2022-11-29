@@ -1,4 +1,4 @@
-if &rtp !~ 'vim-svelte-plugin'
+if !userspace#is_loaded('/vim-svelte-plugin/')
   finish
 endif
 

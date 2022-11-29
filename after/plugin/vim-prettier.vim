@@ -1,4 +1,4 @@
-if &rtp !~ 'vim-prettier'
+if !userspace#is_loaded('/vim-prettier/')
   finish
 endif
 

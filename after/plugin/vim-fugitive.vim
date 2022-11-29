@@ -1,4 +1,4 @@
-if &rtp !~ 'vim-fugitive'
+if !userspace#is_loaded('/plugin/fugitive.vim')
   finish
 endif
 

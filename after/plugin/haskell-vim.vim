@@ -1,4 +1,4 @@
-if &rtp !~ 'haskell-vim'
+if !userspace#is_loaded('/haskell-vim/')
   finish
 endif
 

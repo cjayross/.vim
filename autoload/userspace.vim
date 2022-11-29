@@ -20,3 +20,9 @@ function! userspace#goto_last_edit_position()
     exe "normal! g'\""
   endif
 endfunction
+
+function! userspace#is_loaded(package)
+  let l:scripts = split(execute('scriptnames'), '\n')
+  let l:scripts = filter(l:scripts, 'v:val =~ "' . a:package . '"')
+  return !empty(l:scripts)
+endfunction

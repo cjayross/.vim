@@ -1,4 +1,4 @@
-if &rtp !~ 'vim-rooter'
+if !userspace#is_loaded('/plugin/rooter.vim')
   finish
 endif
 

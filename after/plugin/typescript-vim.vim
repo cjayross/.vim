@@ -1,4 +1,4 @@
-if &rtp !~ 'typescript-vim'
+if !userspace#is_loaded('/typescript-vim/')
   finish
 endif
 

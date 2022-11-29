@@ -1,4 +1,4 @@
-if &rtp !~ 'emmet.vim'
+if !userspace#is_loaded('/plugin/emmet.vim')
   finish
 endif
 

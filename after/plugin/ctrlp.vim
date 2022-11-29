@@ -1,4 +1,4 @@
-if &rtp !~ 'ctrlp.vim'
+if !userspace#is_loaded('/plugin/ctrlp.vim')
   finish
 endif
 
