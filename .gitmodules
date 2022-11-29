@@ -1,9 +1,6 @@
 [submodule "pack/colors/start/vim-one"]
 	path = pack/colors/start/vim-one
 	url = git@github.com:rakr/vim-one
-[submodule "pack/plugin/opt/coc.nvim"]
-	path = pack/plugin/opt/coc.nvim
-	url = git@github.com:neoclide/coc.nvim
 [submodule "pack/plugin/start/argtextobj.vim"]
 	path = pack/plugin/start/argtextobj.vim
 	url = git@github.com:vim-scripts/argtextobj.vim
