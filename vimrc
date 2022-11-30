@@ -76,12 +76,6 @@ map <silent> <Leader>tH :tabmove -1<CR>
 
 map <silent> <Leader>bb :e #<CR>
 
-map <silent> <Leader>fs :w<CR>
-map <silent> <Leader>ff :file<CR>
-map <silent> <Leader>fe :Explore<CR>
-
-map <silent> <Leader>qq :wq<CR>
-
 map <Leader>[ <C-T>
 map <Leader>] <C-]>
 
