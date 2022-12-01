@@ -13,9 +13,6 @@
 [submodule "pack/plugin/start/emmet-vim"]
 	path = pack/plugin/start/emmet-vim
 	url = git@github.com:mattn/emmet-vim
-[submodule "pack/plugin/start/nerdtree"]
-	path = pack/plugin/start/nerdtree
-	url = git@github.com:preservim/nerdtree
 [submodule "pack/plugin/start/vim-commentary"]
 	path = pack/plugin/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary
