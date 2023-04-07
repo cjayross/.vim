@@ -36,6 +36,7 @@ set tm=500
 set nobackup
 set nowritebackup
 set noswapfile
+set nofixendofline
 set expandtab
 set smarttab
 set shiftwidth=2
