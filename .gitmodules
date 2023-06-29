@@ -40,3 +40,6 @@
 [submodule "pack/plugin/start/vim-wayland-clipboard"]
 	path = pack/plugin/start/vim-wayland-clipboard
 	url = git@github.com:jasonccox/vim-wayland-clipboard
+[submodule "pack/plugin/start/yuck.vim"]
+	path = pack/plugin/start/yuck.vim
+	url = git@github.com:elkowar/yuck.vim
