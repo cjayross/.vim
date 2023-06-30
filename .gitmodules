@@ -43,3 +43,6 @@
 [submodule "pack/plugin/start/yuck.vim"]
 	path = pack/plugin/start/yuck.vim
 	url = git@github.com:elkowar/yuck.vim
+[submodule "pack/plugin/start/vim-tidal"]
+	path = pack/plugin/start/vim-tidal
+	url = git@github.com:tidalcycles/vim-tidal
