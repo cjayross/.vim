@@ -62,6 +62,8 @@ map <Down> 5<C-w>+
 map <Left> 5<C-w><
 map <Right> 5<C-w>>
 
+map E ge
+
 map <Leader>w <C-w>
 
 map <silent> <Leader>tn :tabn<CR>
