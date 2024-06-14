@@ -51,6 +51,7 @@ set tags=.tags,tags
 
 nnoremap <Space> <Nop>
 let mapleader = "\<Space>"
+let maplocalleader = "\<Space>\<Space>"
 
 map <C-j> <C-w>j
 map <C-k> <C-w>k
